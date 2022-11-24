@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Caveat", cursive;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: #032533;
+}
+
+p {
+  color: #dddddd;
+}
+
+h1 {
+  color: #647e83;
+  font-weight: bold;
+}
+
+h2 {
+  color: #647e83;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #647e83;
+}
+
+h4 {
+  color: #dddddd;
+  font-size: 15px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex, .footer, .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  margin: 5%;
+  width: 35px;
+}
+
+.banner {
+  opacity: 0.8;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  flex-direction: column;
+}
+
+.video {
+  max-width: 560px;
+  max-height: 315px;
+  width: 100%;
+  height: 315px;
+}
+
+ .hovercard {
+  box-shadow: 2px 0px 5px 0px black;
+}
+
+.hovercard:hover {
+  transform: scale(1.005);
+  transition: 0.1s;
+  box-shadow: 10px 5px 20px 0px black;
+  opacity: 1;
+}
+
+.card {
+  background-color: black;
+  opacity: 0.8;
+}
+.card:hover {
+  opacity: 1;
+}
+.card .card-body {
+  opacity: 0.8;
+}
+.card .card-body:hover {
+  opacity: 1;
+}
+.card .card-body .card-text {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #dddddd;
+}
+.btn .btn-outline-light:hover{
+  opacity: 0.8;
+}
+
+.card .card-body .card-title {
+  color: #dddddd;
+  font-weight: 700;
+}
+
+.parrafo {
+  color: #dddddd;
+  font-style: italic;
+}
+
+.parrafo-index {
+  max-width: 1000px;
+  color: #dddddd;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.img-service {
+  width: 100%;
+  box-shadow: 5px 3px 30px 4px black;
+  border-radius: 6px;
+  opacity: 0.9;
+}
+
+.contacto {
+  list-style: none;
+  color: #E9D8A6;
+  padding: 0%;
+}
+.contacto-img {
+  width: 100%;
+  max-width: 500px;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.footer {
+  flex-direction: row;
+  margin: 0px 10px;
+  width: 100%;
+}
+.footer .logo-footer {
+  width: 40px;
+  margin: 2px 10px;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */
