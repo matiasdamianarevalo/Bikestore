@@ -115,8 +115,8 @@ a {
 }
 .card .card-body .card-text {
   font-style: italic;
-  font-weight: lighter;
-  font-size: 18px;
+  font-weight: normal;
+  font-size: 16px;
   color: #dddddd;
 }
 .btn .btn-outline-light:hover{
